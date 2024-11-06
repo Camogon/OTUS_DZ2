@@ -1,7 +1,7 @@
 import animal.Animal;
 import commands.SelectActions;
 import commands.SelectAnimals;
-import menu.addanimal;
+import menu.Addanimal;
 import utils.ValidationLine;
 import utils.ValidationNumber;
 
@@ -55,7 +55,7 @@ public class Main {
                             System.out.println("Введите цвет");
                             String color = validationLine.validateLine(line);
 
-                            Animal animal = new addanimal(name, age, weight, color).createAnimal(SelectAnimals.valueOf(typeAnimal));
+                            Animal animal = new Addanimal(name, age, weight, color).createAnimal(SelectAnimals.valueOf(typeAnimal));
                             animals.add(animal);
                             System.out.println(animal.say());
                             break;

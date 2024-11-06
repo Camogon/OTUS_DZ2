@@ -6,14 +6,14 @@ import animal.Cat;
 import animal.Dog;
 import animal.Duck;
 
-public class addanimal {
+public class Addanimal {
 
     private String name;
     private int age;
     private int weight;
     private String color;
 
-    public addanimal(String name, int age, int weight, String color) {
+    public Addanimal(String name, int age, int weight, String color) {
         this.name = name;
         this.age = age;
         this.weight = weight;
